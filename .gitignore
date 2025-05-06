@@ -11,6 +11,7 @@ node_modules
 .DS_Store
 dist
 *.local
+.env
 
 # Editor directories and files
 .vscode/*
@@ -21,3 +22,8 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+package-lock.json
+# Sentry Config File
+.env.sentry-build-plugin
+.nvmrc
